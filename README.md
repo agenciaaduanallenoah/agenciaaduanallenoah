@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -103,3 +103,4 @@
     </footer>
 </body>
 </html>
+![image](https://github.com/user-attachments/assets/ccb0f61f-5da9-46da-aac8-2b9b714cee71)
