@@ -1,4 +1,3 @@
-html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -18,6 +17,9 @@ html
             color: #fff;
             padding: 20px;
             text-align: center;
+        }
+        header img {
+            max-width: 100px;
         }
         nav {
             background-color: #333;
@@ -44,6 +46,10 @@ html
         .section h2 {
             color: #ff6600;
         }
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
         footer {
             background-color: #333;
             color: #fff;
@@ -57,6 +63,7 @@ html
 </head>
 <body>
     <header>
+        <img src="logo.png" alt="Logo de Agencia Aduanal lenoah">
         <h1>Agencia Aduanal lenoah</h1>
         <p>Importación de maquinaria, vehículos, motos y mercancías</p>
     </header>
@@ -69,6 +76,7 @@ html
         <div class="section" id="about">
             <h2>Sobre Nosotros</h2>
             <p>En Agencia Aduanal lenoah, nos especializamos en la importación de maquinaria, vehículos, motos y mercancías desde Estados Unidos hacia México. Contamos con años de experiencia en el mercado y un equipo de profesionales dedicados a brindar el mejor servicio a nuestros clientes.</p>
+            <img src="sobre-nosotros.jpg" alt="Sobre Nosotros">
         </div>
         <div class="section" id="services">
             <h2>Servicios</h2>
@@ -79,13 +87,15 @@ html
                 <li>Importación de mercancías diversas</li>
                 <li>Asesoría en trámites aduanales</li>
             </ul>
+            <img src="servicios.jpg" alt="Servicios">
         </div>
         <div class="section" id="contact">
             <h2>Contacto</h2>
             <p>Para más información o para solicitar nuestros servicios, por favor contáctanos:</p>
-            <p>Email: info@agenciaaduanallenoah.com</p>
-            <p>Teléfono: +52 123 456 7890</p>
-            <p>Dirección: Calle Falsa 123, Ciudad, Estado, México</p>
+            <p>Email: importacionestijuana22@gmail.com</p>
+            <p>Teléfono: +52 664 329 6006</p>
+            <p>Dirección: Fray Junípero Serra 115 int 329, Col. Garita de Otay, CP 22430, Tijuana, B.C., México</p>
+            <img src="contacto.jpg" alt="Contacto">
         </div>
     </div>
     <footer>
